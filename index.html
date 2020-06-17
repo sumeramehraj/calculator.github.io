@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/solar/bootstrap.min.css">
+
+</head>
+   
+<body>
+	<br><br>
+	<div class="container">
+    <h3>First Number</h3>
+	<input type="number" name="" id="one"><br><br>
+    <h3>Second Number</h3>
+    <input type="number" name="" id="two"><br><br><br><br>
+    <button type="button" class="btn btn-primary" onclick="add()">+</button>
+    <button type="button" class="btn btn-secondary" onclick="sub()">-</button>
+    <button type="button" class="btn btn-danger" onclick="mul()">X</button>
+    <button type="button" class="btn btn-warning" onclick="div()">/</button>
+    <br><br><br>
+     <button type="button" class="btn btn-dark" onclick="document.getElementById('one').value = ''">Clear 1st Number</button>
+     <button type="button" class="btn btn-dark" onclick="document.getElementById('two').value = ''">Clear 2nd Number</button>
+    
+    <br>
+    <br>
+    <br>
+    <h3 id="res"></h3>
+    </div>
+
+	<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
